@@ -1,6 +1,6 @@
 # docker run -it -p 15151:15151 -v /var/snap/lxd/common/lxd/unix.socket:/var/snap/lxd/common/lxd/unix.socket lxdui
 
-FROM ubuntu
+FROM ubuntu:22.10
 
 RUN apt update && apt install -y python3
 
